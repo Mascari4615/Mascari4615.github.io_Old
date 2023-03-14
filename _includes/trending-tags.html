@@ -1,5 +1,5 @@
 {% comment %}
-  The trending tags list
+The trending tags list
 {% endcomment %}
 
 {% assign MAX = 10 %}
@@ -12,7 +12,7 @@
   {% assign size_list = size_list | push: size %}
 
   {% assign tag_str = tag | first | append: "::" | append: size %}
-  {% assign tag_list =  tag_list | push: tag_str %}
+  {% assign tag_list = tag_list | push: tag_str %}
 {% endfor %}
 
 {% assign size_list = size_list | sort | reverse %}

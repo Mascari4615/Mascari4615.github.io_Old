@@ -1,6 +1,6 @@
 <!--
-  Date format snippet
-  See: /assets/js/_utils/timeage.js
+Date format snippet
+See: /assets/js/_utils/timeage.js
 -->
 
 {% assign tooltip_df = site.data.locales[lang].date_format.tooltip %}
@@ -10,11 +10,13 @@
 {% if include.preposition %}
   {{ include.preposition }}
 {% endif %}
-<span class="timeago {% if include.class %}{{ include.class }}{% endif %}"
+
+<span
+  class="timeago {% if include.class %}{{ include.class }}{% endif %}"
   {% if include.tooltip %}
-    data-toggle="tooltip"
-    data-placement="bottom"
-    title="{{ include.date | date: tooltip_df }}"
+  data-toggle="tooltip"
+  data-placement="bottom"
+  title="{{ include.date | date: tooltip_df }}"
   {% endif %}>
   {%- assign this_year = site.time | date: "%Y" -%}
   {%- assign post_year = include.date | date: "%Y" -%}
