@@ -1,7 +1,7 @@
 ---
 title: "⛏️ 해킹과 대응 기술 과목"
 date: 2023-03-09. 15:01
-last_modified_at: 2023-03-14. 10:15
+last_modified_at: 2023-03-21. 15:06
 categories: ⛏️Memo
 ---
 
@@ -274,3 +274,22 @@ I.E. 키 합의 프로토콜
 아핀 암호  
 곱셈과 덧셈 암호  
 근데 곱셈 Matters  
+
+---
+
+TODO : 영상 강의  
+TODO : 책  
+TODO : 과제  
+
+- DES Data Encryption Standard
+
+16-1. CBC  
+
+- Biba 모델  
+- BLP 모델  
+- 만리장성 모델  
+
+[참고](https://m.blog.naver.com/sdug12051205/221575582613)  
+
+- DAC MAC RBAC  
+

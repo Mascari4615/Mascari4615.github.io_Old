@@ -4,11 +4,6 @@ date: 2022-11-20. 11:56
 categories: ⛏️Memo
 ---
 
-- [브루트 포스 탐색](https://en.wikipedia.org/wiki/Brute-force_search)  
-  - 무지성 노가다 대입, 100% 정확성
-
-- 그리디
-
 - fetch (=bring)
   - CPU가 명령을 수행하기 위해 그 명령어를 레지스터에서 꺼내 오는 것
   - 위 말고도 그냥 일반적으로 가져온다는 뜻으로 많이 쓰이기도 하는 듯
@@ -102,9 +97,6 @@ categories: ⛏️Memo
 
   - [참고](https://gamedevlog.tistory.com/71)
 
-- 오버플로우 : 변수가 표현할 수 있는 최대 범위 너머로  
-- 언더플로우 : 변수가 표현할 수 있는 최소 범위 너머로  
-- JSON : 데이터 저장 방식, Key <-> Value
 - DB, DataBase
   - 방정리를 왜 할까 : 잘 찾을려고! (잘 보관하려고가 아니라)  
   - 데이터도 메모장으로 저장하는 것보다 찾을 때 천배 낫다  
@@ -119,157 +111,21 @@ categories: ⛏️Memo
 
 - A.M. : Ante Meridiem, 오전  
 - P.M. : Post Meridiem, 오후  
+- B2B : Business to Business  
 
-- 인하우스 툴  
-- 튜플  
-- 에라토스테네스의 체  
+- Switch When  
+- 인하우스, 아웃소싱  
 - Leading 0  
-- 요세푸스 문제
-- Argument <> Parameter  
-- URI  
-- WebRequest  
-- gcc  
-- 공변성과 반공변성  
-- in 제네릭 한정자  
-- in 매개변수 한정자  
-- 커널  
-- 시암의 방법  
-- System.Random Unity.Random 차이
-- format  
-- 다중 사용자 시스템, 단일 사용자 시스템  
-- 모뎀  
-- data transfer  
-- 전송 매체 Transmission Medium  
-- device  
-- Ethernet  
-- Traffic  
-- Internet Communication ?  
-- Cell Phone  
-- OSI  
-- 멀티캐스트  
-- FFT 고속 푸리에 변환  
-- lower_bound, upper_bound
-- cin.fail  cin.eof  여러 줄 입력 끝 판단  
-- scanf printf 도 malloc 을 사용한다 >> 힙 할당이 생긴다  
-- C 메모리 구조  
-- C for문 안에서의 변수 선언 불가능 ? Cpp 컴파일러가 읽어서 가능?  
-- 메모리 누수, 댕글링 포인터  
-- 이 문제를 알아서 해결해주는 것이 GC  
-- 문자열 리터럴 풀 = 전역변수가 저장되는 곳  
-- 문자열 > 프로그램 내에서 어디든지 사용 가능 = 전역 변수  
-- 메모리 접근 > OS  
-- 왜 시작 위치만 저장하느냐> 문자열 자체가 끝에 \0 을 가지고 있기 때문
-- 버퍼 입력버퍼 버퍼링  
-- 주사 방식  
-- scanf 의 scan 주사  
-- HW  
-- 관리 커널  
-- 조게껍데기 셀  
-- 커널 셀 ㅡ 운영체제  
-- 사용자 프로그램  
-- 유저 입력  
-- 입력 명령 해석 셀  
-- 셀에서 실행  
-- 셀 명령러 해석기  
 - Bar Cmd Exe 확장자 차이  
-- 단말기 = 터미널  
-- 맨 마지막, SW에 있어서 최종 소비자  
-- SOP  
-- 서드파티  
-- 너무 이른 최적화  
-- 전처리기 지시어  
-- Reference Counting  
-- STL Vector vs Array  
-- 순람표 룩업 테이블  
-- C# default  
-- Unity curve.Evaluate  
 - 로렘 입숨 lorem ipsum;  
-- 머신 사이클  
-- 바인딩 타임  
-- 사실관계적시  
-- b2b  
-- 엠비? 엠바고  
 - 뽀모도로 기법  
 - aa ASCII ART
-- 공감주의  
-- 문제 해결책에 집중할 때 비로서 엉뚱한 우울감에 빠지지 않은  
-- 동물이나 사람의 행동을 생물학적-진화론적으로 분석해보는 습관이 있다. 물론 그런 분야에 관해 전문적인 지식을 가지고 있거나, 제대로 공부해본 것은 아니지만, 나름의 논리대로 상식선에서 분석해보는 것이다. 예를 들어, 우리는 왜 어두운 곳을 두려워 할까? 우리는 왜 높은 곳을 두려워 할까? 같은 질문을 나름대로 분석해보자면 다음과 같다. 지금처럼 밤만 되면 환하게 세상을 비추는 가로등이나 언제 어디서든 빛을 낼 수 있는 손전등은 저 먼 옛날에는 존재하지 않았고, 때문에 어두운 밤이나, 깊은 동굴은 야생 동물에게 공격당할 위험성이 있었을 것이다. 때문에 어두움을 두려워하지 않은 인류는 살아남기 힘들었고, 반대로 어두움을 두려워한 인류는 상대적으로 살아남을 가능성이 높았다. 높은 곳을 두려워하는 이유도 앞의 이유와 비슷하다. 이런 식으로 내가 가지고 있는 상식 선에서 동물이나 사람의 행동, 본능을 분석하는 것이다. 하지만 어릴 때부터 풀리지 않는 의문이 하나 있다. 과연 사랑이란 무엇일까? 이 질문은 도저히 내 상식 선에서 대답할 수 없었다. 일반적으로, 사랑하게 되는 주된 이유는 외모다. 그런데 외모가 생존에게 주는 이점이 있다고 볼 수 있을까? -> 사회적 동물
-- 걍 땅 캐는거?  
-- 뒷산에서 보석캐기?  
-- 디펜스랑 방치랑 합치면..?  
-- 님블궤스트?  
-- 소울나이트  
-- 피하기?  
-- 지하철  
-- 팬텀오브스칼렛?  
-- 어떻게 4.8점대지  
-- 광부 돌ㄹ캐고 광물로 장비만들어서 싸우는?  
-- 광부는 방치 장비는 뭔가  
-- 광부 모험가 마녀?  
-- 탱 딜 힐  
-- 마녀 포션이랑 연구  
-- 모험가 그냥 방치느낌?  
-- 잡템 찾아오는  
-- 광부 모험가 장비 ?  
-- 대장장이?  
-- 브라우저 확장으로  
-- 이모티콘 점수  
 - Meridiem (라틴어) : midday, 정오  
 
 - 곱셈이 나눗셈보다 빠르다
   - 곱셈은 한 번에 처리
   - 나눗셈은 뺄셈을 계속해서 처리
   - [참고](https://blog.naver.com/PostView.nhn?blogId=fah204&logNo=221573584390)
-
-- 서버 컴퓨터는 대부분 리눅스
-  - 리눅스 -> 오픈소스 -> 여러 대 사용해도 비용 X -> 서버 컴퓨터는 대부분 리눅스
-
-- 서버도 그냥 컴퓨터다
-  - 서버 컴퓨터마다 모니터, 키보드, 마우스 하나하나 껴서 업데이트  
-  - 서버 터지면(= 꺼지면) 다시 키고 프로그램 열고 함  
-
-  - 규모가 커질수록 구조를 다 알 수 없음 + 컴퓨터를 다 쓸 수 없음  
-  - -> 클라우드 서비스
-
-- 서버 API
-  - 은행 창구 == API  
-  - 클라이언트 개발자하고 미리 한 약속, 다 외울 수 없음 -> API 명세서
-
-  - `http://우리은행용산지점/입출금창구?신분증=주민등록번호`
-  - 서버위치/API주소?가져가기로한데이터
-
-  - API 하나만 따주세요 -> 새로운 기능/창구를 하나 만들어주세요  
-  - API 개발은 끝났는데 클라이언트는 아직 -> 창구는 만들었는데 요청하는 쪽이 아직  
-
-  - Open API : 누구나 요청할 수 있게 열린 API, i.e. 공공데이터 포털  
-
-- 블렌더, 모델링
-  - 3D 커서 원위치 : Shift + C  
-  - 솔리드/와이어 토글 : Shift + Z, 그냥 Z 꾹
-  - 스냅 토클 : Shift + Tab  
-  - Join : 재료템 먼저 선택, 무기 나중에 선택  
-  - 재계산 : Alt + N  
-  - Alt 마우스방향말고, ~ 누르면 쉬움
-  - 와이어프레임 만들고 솔리디 파이 하면 벽 틀?
-
-  - [메쉬 부드럽게](https://longtime0423.postype.com/post/10045292)
-
-  - [Favela/Slum 블렌더](https://barell4.gumroad.com/l/favelagenerator?recommended_by=search&_ga=2.134772723.349083529.1661141255-339463231.1661141255&_gl=1*dqamgw*_ga*MzM5NDYzMjMxLjE2NjExNDEyNTU.*_ga_6LJN6D94N6*MTY2MTI0ODkzOC4xMC4xLjE2NjEyNDkyNzAuMC4wLjA)
-
-  - 리토폴로지  
-
-  - 휴먼 덴시티  
-    - 창틀 50  
-    - 전체 창 600 1800  
-    - 개별 창 50 50  
-    - 근데 이쁘게 하고 싶어서 20  
-    - 안열꺼면 깔끔해보이니까  
-
-    - 복도 1500 1800  
-    - 문 900 1800 / 2100  
-    - 원래 5천 해도 3천 쓰고 막그러는데  
-    - 천정고 3미타정도로  
-    - 일본 낮은 뭐시깽이하려면 2700 2400  
 
 - 동기 비동기
   - 병원들어갔어 접수처에서 순서기다리세요 부를게요~ 하는거랑  
@@ -304,20 +160,6 @@ categories: ⛏️Memo
   - 정적 메모리 풀을 만들어 놓고 할당 받아 쓰는 방식  
   - 대규모 탄막이나 파티클이 등장할 경우 프레임 드랍을 막기 위해  
 
-- C# List  
-  - 크기 기본값을 설정해주지 않으면 다 채울 때 까지 재할당(+복사) 하지 않음  
-  - 아니라면 2배씩  
-  - StringBuilder Queue Stack 도 마찬가지  
-  - 기본 4개의 용량을 가지고 있음  
-  - 초기 사이즈가 예측 불가능하거나 Add Remove가 빈번하면 Linked List 추천  
-  - List 요소 지우면 뒤에 있는 요소 한칸 땡겨서 모두 다시 복사  
-
-- C# [접근 한정자/Access Modifier](https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/access-modifiers)  
-  - public  
-  - protected  
-  - private  
-  - internal : 동일한 어셈블리 내에서만 접근 가능  
-
 | var | 중복 선언 가능 | |  
 | let | 중복 선언 불가능 | 값 변경 가능 |  
 | const | 중복 선언 불가능 | 값 변경 불가능 |  
@@ -331,13 +173,6 @@ categories: ⛏️Memo
   - let : Let
   - const : Constant
 
-- 수학 기호
-  - [링크1](http://daplus.net/github-github-markdown-%ED%85%8C%EC%9D%B4%EB%B8%94%EC%97%90-%EC%B2%B4%ED%81%AC-%EB%B0%95%EC%8A%A4-%EB%98%90%EB%8A%94-%EB%88%88%EA%B8%88-%ED%91%9C%EC%8B%9C%EB%A5%BC-%EA%B7%B8%EB%A6%AC%EB%8A%94/)
-  - [링크2](https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95)
-  - [링크3](https://namu.wiki/w/%EC%88%98%ED%95%99/%EC%95%BD%EC%96%B4%20%EB%B0%8F%20%EA%B8%B0%ED%98%B8)
-  - [링크4](https://ko.wikipedia.org/wiki/%EB%85%BC%EB%A6%AC_%EA%B8%B0%ED%98%B8)
-  - [링크5](https://zetawiki.com/wiki/%EC%9E%90%EC%97%B0%EC%88%98%EC%A7%91%ED%95%A9,_%EC%A0%95%EC%88%98%EC%A7%91%ED%95%A9,_%EC%9C%A0%EB%A6%AC%EC%88%98%EC%A7%91%ED%95%A9,_%EC%8B%A4%EC%88%98%EC%A7%91%ED%95%A9,_%EB%B3%B5%EC%86%8C%EC%88%98%EC%A7%91%ED%95%A9)
-
 - VRChat World에서 VideoPlayer로 데이터 불러오기
   - [링크1](https://feralresearch.org/lab/api-calls-from-inside-vrc/)
   - [링크2](https://ask.vrchat.com/t/http-requests/1803)
@@ -348,7 +183,6 @@ categories: ⛏️Memo
 - 무지성 복사  
   - [VA-11 HALL-A](http://waifubartending.com/)
   - [셀레스트의 보이지 않는 구현](https://gall.dcinside.com/mgallery/board/view/?id=celeste&no=1177)  
-  - [리스크 오브 레인 2 - 소환 루프](https://riskofrain2.fandom.com/wiki/Directors#Spawn_loop)  
   - [Github Remote Disconnected](https://github.com/desktop/desktop/issues/14936)  
   - [특정 구역에서의 랜덤 스폰 알고리즘](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=89582&exception_mode=recommend&page=1)
   - [게임 시스템 디자인 시작하기](https://www.slideshare.net/ByungChun2/ss-140743429)  
@@ -372,9 +206,7 @@ categories: ⛏️Memo
   - [C# new Struct](https://asta8080.tistory.com/5)  
   - [유니티 메모리 관리의 이해](https://smilejsu.tistory.com/560)  
   - [float 연산이 정확하지 않다면 컴퓨터 계산기는 어떻게 소수를 계산하는가](https://www.quora.com/If-computers-cannot-compute-floating-numbers-accurately-how-do-calculators-and-scientific-computers-function)  
-  - [bool은 왜 1비트가 아니라 1바이트인가](https://zepeh.tistory.com/419)  
-  - [bool은 왜 1비트가 아니라 1바이트인가](https://stackoverflow.com/questions/2064550/c-why-bool-is-8-bits-long)  
-  - [1바이트는 왜 8 비트인가](https://zepeh.tistory.com/313)  
+c-why-bool-is-8-bits-long)  
   - [누적합](https://book.acmicpc.net/algorithm/prefix-sum)  
   - [GetInstanceID 와 GetHashCode](https://daebalstudio.tistory.com/entry/GetInstanceID-%EC%99%80-GetHashCode-%EC%A0%95%EB%A6%AC%ED%95%A0-%EA%B2%83)  
   - [유니티 프리팹 썸네일 안보임](https://forum.unity.com/threads/why-are-my-prefab-and-model-previews-not-showing.709544/)  
@@ -429,7 +261,7 @@ categories: ⛏️Memo
   - [C# OCR](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rhukjin&logNo=222052759608)  
   - [패킷](https://enlqn1010.tistory.com/9)  
   - [메이플 패치파일](https://www.inven.co.kr/board/maple/2304/9801)  
-  - [C# Linq Take, Skip](https://afsdzvcx123.tistory.com/entry/C-%EB%AC%B8%EB%B2%95-C-Linq-Take-Skip-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B5%AC%EC%97%AD-%EC%9E%98%EB%9D%BC%EB%82%B4%EA%B8%B0)  
+  - [C# Linq Take, Skip](https://afsdzvcx123.tistory.com/entry/C-%EB%AC%B8%EB%B2%95-C-Linq-Take-Skip-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B5%AC%EC%97%AD-%EC%9E%98%EB%9D%BC%EB%82%B4%EA%B8%B0) 
   - [Coding 시 변수 선언 위치는 어떻게 잡아주고 계시나요?](http://1st.gamecodi.com/board/zboard.php?id=GAMECODI_Talkdev&no=1461)  
   - [정적 멤버 직접 사용 (클래스명 생략)](https://www.csharpstudy.com/CS6/CSharp-using-static-member.aspx)  
   - [Change line renderer alpha unity](https://stackoverflow.com/questions/63178546/change-line-renderer-alpha-unity)  
@@ -520,7 +352,6 @@ categories: ⛏️Memo
   - 글로벌 일루미네이션 . samples
   - 보통 UV 오버랩 문제 > Texels per unit 값 올려주거나, UV 맵 자체 간격  
   - 스텔실 쉐이더
-  - Mesh Baker
   - Force Power-Of-Two Atlas 체크 > 검은 공간 많은 텍스쳐를 크기 줄여줌  
   - HLSL (High Level Shading Language) 가장 유명하고 보편적으로 넓게 쓰임
   - GLSL (OpenGL Shading Language) OpenGL에서 사용하는 언어
@@ -553,7 +384,6 @@ categories: ⛏️Memo
   - [Materialize](https://boundingboxsoftware.com/materialize/)
   - [Shadertoy](https://www.shadertoy.com/)
   - [Game Jam Theme Generator](https://letsmakeagame.net/game-jam-theme-generator/)
-  - [Rito15](https://rito15.github.io/posts/simple-amplify-shader-examples/)
   - [Level Design](https://www.worldofleveldesign.com/categories/cat-level-design.php)
   - [가짜 투명도, 디더링](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=117790&page=1)
   - [쉐이더와 머테리얼](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=117952&exception_mode=recommend&page=1)
@@ -585,21 +415,14 @@ categories: ⛏️Memo
   - [https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756)
   - [https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/edit](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/edit)
   - [https://m.blog.naver.com/sorang226/222772936261](https://m.blog.naver.com/sorang226/222772936261)
-  - [김도윤] [오전 5:12] 안락사
-  - [김도윤] [오전 5:14] 캐스퍼[김도윤] [오전 4:39] 천국은 이데아
-  - [김도윤] [오전 4:54] 호문쿨ㄹ스
-  - [김도윤] [오전 4:58] 쿠데타[김도윤] [오전 4:26] 나는 내가 좋아하는 것들 자체를 좋아하는 것이 아니다 내 머리 속 가장 이상적인 것들을 좋아하는 것이지[김도윤] [오전 7:57] Last night on earth
-  - [김도윤] [오전 7:57] 눈감으며 혹은 장님 지구멸망과정
-  - [김도윤] [오전 7:58] 잠깼더니 어?  어째서 눈물이
-  - [김도윤] [오전 7:58] 꿈 다 잊음
+  - 캐스퍼
+  - 호문클루스
   - 멜랑꼴리  
   - Eyecatchers
   - 미쿠미쿠 - <https://www.inven.co.kr/webzine/news/?news=110890>  
   - 라이트 모티브 - 극에서 어떤 인물이나 감정 등 특정 주제에 대해 전용 테마곡을 만들고 극의 흐름에 따라 바리에이션을 시키는 것  
-  - 동요하고 있구나 폴나레프 아니야! 난 가요 하고있어!  
   - il2cpp  
   - Wuppo 꺼꿀이  
-  - 관찰자 없는 우주의 의미, 존재 하는가?  
   - 퀘스트 유니온 - 마을바다 있는 잡 퀘 클리어 수에 따라 스탯 증가?  
   - auto  
   - static  
@@ -615,15 +438,10 @@ categories: ⛏️Memo
   - 거사후 반질
   - 소름?
   - 관세, 면세
-  - 턴제 카드 스타? 디펜스?
-  - 그냥 싱글 RPG? 멀티 여부를 페이?
   - 알배김? 디스크?
   - participate
   - plogging
   - 염소 시뮬? 팬치 시뮬?
-  - !w6760901
-  - 플레이 스타일을 바꾸는?
-  - 스킬을 루나코인 같은 재화로?
   - 강하다! 튼튼하다! 탱크행거!
   - 세면대
   - 거봐라
@@ -643,7 +461,6 @@ categories: ⛏️Memo
   - 피그마
   - 부외자
   - 구교사
-  - 버미육
   - 모브
   - 우선순위큐
   - 벡터 vector는 '나르다'라는 뜻을 갖는 라틴어 vehere에서 온 것으로 '나르는 것'을 의미한다.
@@ -692,13 +509,3 @@ categories: ⛏️Memo
   - https://twitter.com/beetie135/status/1614203893004763136?ref_src=twsrc%5Etfw
   - https://twitter.com/CK20_HWI/status/1594017839924776960?s=20&t=27ijxpKZeG9rbUT-zRW0hA
   - [http://yuchi.duckdns.org/xe/home](http://yuchi.duckdns.org/xe/home)
-
-- 데이터베이스 관리시스템(DBMS : Data Base Management System)  
-
-  - MySQL 핵심개발자들이 MySQL에 대한 오라클의 라이센스 정책이 자신들과 맞지 않는다는 이유로 오라클사를 탈퇴해서 만든것이 MariaDB  
-  - MariaDB는 MySQL의 소스코드를 그대로 사용하여 개발했기 때문에 모든 기능이 동일  
-  - 차이점은 라이센스 정책인데 MySQL은 소유권이 오라클에 있어서 기업에서 상업적으로 사용하는데 비용이 발생,  MariaDB는 오라클사와 무관하기 때문에 무료 (엔터프라이즈 버전은 유료지만 무료의 범위가 넓음)
-
-- httpd의 d : daemon :  
-  - 악령 또는 그리스 신화에서 초자연적인 존재 :  
-  - User가 직접 제어하지 않고, 백그라운드에서 돌며 작업을 하는 프로그램 = 상주 프로그램 (resident program)
