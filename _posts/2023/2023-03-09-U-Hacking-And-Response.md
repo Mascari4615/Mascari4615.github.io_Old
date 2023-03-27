@@ -287,9 +287,17 @@ TODO : 과제
 
 - Biba 모델  
 - BLP 모델  
-- 만리장성 모델  
+- 만리장성 모델 - Biba + BLP?  
+
+- 고객 - 은행 - 인증기관
 
 [참고](https://m.blog.naver.com/sdug12051205/221575582613)  
 
 - DAC MAC RBAC  
+
+- SSL/TLS
+- IPSec
+- VPN
+- TOR The Onion Touter
+- Zero Trust - SDP
 

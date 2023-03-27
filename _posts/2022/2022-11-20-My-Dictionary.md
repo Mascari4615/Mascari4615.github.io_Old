@@ -509,3 +509,4 @@ c-why-bool-is-8-bits-long)
   - https://twitter.com/beetie135/status/1614203893004763136?ref_src=twsrc%5Etfw
   - https://twitter.com/CK20_HWI/status/1594017839924776960?s=20&t=27ijxpKZeG9rbUT-zRW0hA
   - [http://yuchi.duckdns.org/xe/home](http://yuchi.duckdns.org/xe/home)
+  - Unity curve.Evaluate
