@@ -1,110 +1,14 @@
 ---
 title: "⛏️ 내가 만드는 백과사전/정보모음"
 date: 2022-11-20. 11:56
+last_modified_at: 2023-03-27. 14:10
 categories: ⛏️Memo
 ---
-
-- fetch (=bring)
-  - CPU가 명령을 수행하기 위해 그 명령어를 레지스터에서 꺼내 오는 것
-  - 위 말고도 그냥 일반적으로 가져온다는 뜻으로 많이 쓰이기도 하는 듯
-
-- memory (메모리)
-  - 레지스터(CPU) - 캐시메모리 - 주기억장치 - (캐시메모리) - 보조기억장치
-  - 일반적으로 용량과 속도 반비례, 속도와 용량 대비 가격 비례
-
-  - 레지스터 데이터 읽기 = 머릿속에 있는 기억 떠올리기
-  - 주기억장치 데이터 읽기 = 책장에 꽂혀 있는 책에서 특정한 책을 찾아 내용을 읽는 행동
-  - 보조기억장치 데이터 읽기 = 지구를 한 바퀴 돌아서 특정한 내용 찾아오기
-
-  - [메소드 스텁](https://ko.wikipedia.org/wiki/%EB%A9%94%EC%86%8C%EB%93%9C_%EC%8A%A4%ED%85%81)  
-
-- register (레지스터)
-  - 프로세서에 위치한 고속 메모리
-  - 극히 소량의 데이터나 처리 중인 중간 결과와도 같은 프로세서가 바로 사용할 수 있는 데이터를 담고 있는   영역
-  - 컴퓨터 구조에 따라 크기와 종류가 다양
-
-- MainBoard, MotherBoard, SystemBoard
-  - 다 똑같은 용어, 우리나라는 보통 메인보드라 칭하고, 해외에서는 마더보드라 칭하는 경우가 많음  
-
-- -ware
-  - ~로 만들어진
-  - Hardware (H/W)
-    - 딱딱한 것으로 만들어진 (물리, 외적으로)
-    - 물리적으로 만들어진 컴퓨터 부품, 혹은 부품으로 조립된 전자 기기
-  - Firmware
-    - 내성을 가진것으로 만들어진? (내적으로)
-    - H/W에 각인된 고정된 Software, 전자 부품이 기본적으로 가지고 있는 Software
-    - ROM에 기록됨 (Read-only memory, 비휘발성)  
-  - Software
-    - 부드러운 것으로 만들어진 (하드웨어와 반대의 개념으로서)
-    - 만질 수 없는 가상의 프로그램
-  - Malware
-    - 악으로 만들어진
-    - 컴퓨터 바이러스, 해킹 관련하여
-  - Wetware?
-    - 젖은 것으로 만들어진 (= 뇌?)  
-
-- Swizzling (= mix up)
-  - 휘몰아치는, 컴퓨터  용어로는 벡터의 구성 요로를 임의로 재정렬하고 결합하여 벡터를 구성하는 기능 (CG에서)
-
-  - Shader에서는  
-    - 그 외에도 Pointer Swizzling 이라는 것도 있음
-    - 포인터로 링크된 자료 구조 단위를, ID나 이름 등으로 대체함으로써 프로그램을 다시 시작하더라도 성공적으로 파일 데이터를 로드, 역직렬화 시키는 방법
-
-  - (마인크래프트의 휘몰아치는 칼날은 Sweeping)  
 
 - #pragma
   - 사전적 의미로 만능
   - VS C++에서 컴파일러에게 그 뒤에 오는 내용을 따라 어떤 일을 하라는 전처리 명령어로 사용
   - 컴파일러에게 직접 명령을 내리는 지시자  
-
-- processor (프로세서)
-  - 처리기, 일반적으로 중앙처리장치 (CPU) = 명령어를 해석하는 컴퓨터의 한 부분
-  - 그래픽처리장치 (GPU) 도 컴퓨터의 일부이지만 단지 '프로세서' 라는 용어만 사용하였을 때 그래픽 처리 장치를 뜻하는 경우는 아직 많지 않음
-
-  - 마이크로 프로세서 > CPU
-
-- instruction
-  - 명령, (사전 = 지침)  
-
-- Interrupt (인터럽트)
-  - <https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8_%ED%95%B8%EB%93%A4%EB%9F%AC>
-  - <https://ko.wikipedia.org/wiki/%EB%AA%85%EB%A0%B9_%EB%A0%88%EC%A7%80%EC%8A%A4%ED%84%B0>
-
-  - CPU에서 프로그램을 실행하고 있을 때 입출력 하드웨어 등의 장치에 예외상황이 발생하여 처리가 필요할 경우에 CPU에게 알려 처리할 수 있도록 하는 것
-
-  - != [Polling (폴링)](https://ko.wikipedia.org/wiki/%ED%8F%B4%EB%A7%81_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99))
-  - 폴링은 하나의 장치 혹은 프로그램이 충돌 회피 또는 동기화 처리 등을 목적으로 다른 장치 혹은 프로그램의 상태를 주기적으로 검사하여 일정한 조건을 만족할 때 소우신 등의 자료처리를 하는 방식
-  - 인터럽트는 대상을 주기적으로 감시하여 상황이 발생하면 해당처리 루틴을 실행해 처리하는 폴링과는 달리, 상대가 CPU에게 일을 처리해 달라고 요청하는 수단
-
-- CPU 명령어 사이클 (instruction cycle, 인스트럭션 사이클)
-
-  - 마이크로프로세서가 메모리로부터 프로그램 된 한 개의 기계어 명령어를 가져와 어떠한 동작을 요구하는지를 결정하고 명령어가 요구하는 동작을 수행하는 연속적인 동작 과정
-  - = 즉, 명령어를 꺼내와 실행하기 위한 연속적인 동작 과정
-
-  - 1. 사용되는 회로
-    - PC : 다음에 실행할 명령어에 대한 메모리 주소를 추적
-    - MAR : 다음에 실행할 명령어의 메모리에 있는 주소를 보관
-    - MBR : 메모리로부터 페치(fetch)되어 cpu가 처리할 준비가 된 데이터나 메모리에 저장되어 대기 중인 데이터를 보관하는 양방향 레지스터
-    - IR : 메모리로부터 fetch 되는 (현재 실행할) 명령어를 일시적으로 보관하는 영역
-    - CU : 명령어 인출, 해독, 실행을 위한 제어신호를 타이밍에 맞춰 발생시킨다.
-    - ALU : 산술 및 논리 연산을 수행
-
-  - 2. 명령어 기본 사이클
-    - CPU에서 명령어를 읽어오는 단계
-    - 2.1. 명령어 인출 사이클 (instruction fectch 사이클)
-      - CPU에서 명령어를 실행하는 단계
-
-  - [참고](https://gamedevlog.tistory.com/71)
-
-- DB, DataBase
-  - 방정리를 왜 할까 : 잘 찾을려고! (잘 보관하려고가 아니라)  
-  - 데이터도 메모장으로 저장하는 것보다 찾을 때 천배 낫다  
-  - 제목 (문자열)로 찾는 것보다 분류로 찾는 게 빠르다  
-
-  - No Index : 전부 다 뒤진다  
-  - SQL : 정형화, 대기업, 실수를 절대로 하면 안될 때  
-  - NoSQL : 비정형화, 앞으로 뭔가 많이 바뀔 때  
 
 - BC : Before Chirst, 기원 전  
 - AD : Anno Domini nostri lesu Christi (라틴어), Anno Domini (라틴어 줄인), In The Year Of Our Load, Jesus Christ (영어), 기원 후  
@@ -118,7 +22,6 @@ categories: ⛏️Memo
 - Leading 0  
 - Bar Cmd Exe 확장자 차이  
 - 로렘 입숨 lorem ipsum;  
-- 뽀모도로 기법  
 - aa ASCII ART
 - Meridiem (라틴어) : midday, 정오  
 
@@ -128,11 +31,11 @@ categories: ⛏️Memo
   - [참고](https://blog.naver.com/PostView.nhn?blogId=fah204&logNo=221573584390)
 
 - 동기 비동기
-  - 병원들어갔어 접수처에서 순서기다리세요 부를게요~ 하는거랑  
+  - 병원 들어갔어, 접수처에서 순서기다리세요 부를게요~ 하는거랑  
   - 들어가자마자 아무것도 안하고 기다리는 것 차이  
-  - 페이지에서 조금씩조금씩 나오는 거  
+  - 페이지에서 조금씩 조금씩 나오는 거  
 
-- Setter 쓰지 마라, 의미있는 메소드를 만들어라  
+- Setter보단 의미있는 메소드를  
 
 - 이건 할 줄 알아야 한다  
   - <https://en.wikipedia.org/wiki/XOR_swap_algorithm>
@@ -146,19 +49,8 @@ categories: ⛏️Memo
   - 코어는 윈도우 리눅수 맥 모두 실행가능  
   - 거의 똑같음  
 
-- Int 크기  
-  - 옛날에는 2바이트 16비트 체ㅔㅈ여서  
-  - 지그은 4바이트 32비트  
-  - 64비트 더 많이 쓰는데? 혼용해서  
-  - 언젠가 8바이트 ?  
-
-- 주소 크기  
-  - VS (SW) 가 32Bit 라 주소 크기가 4Byte = 32bit  
-  - OS는 64bit 인데  
-
-- Placement New 기법  
-  - 정적 메모리 풀을 만들어 놓고 할당 받아 쓰는 방식  
-  - 대규모 탄막이나 파티클이 등장할 경우 프레임 드랍을 막기 위해  
+- 코딩 스타일  
+  - 변수 선언 위치라던지..  
 
 | var | 중복 선언 가능 | |  
 | let | 중복 선언 불가능 | 값 변경 가능 |  
@@ -183,7 +75,6 @@ categories: ⛏️Memo
 - 무지성 복사  
   - [VA-11 HALL-A](http://waifubartending.com/)
   - [셀레스트의 보이지 않는 구현](https://gall.dcinside.com/mgallery/board/view/?id=celeste&no=1177)  
-  - [Github Remote Disconnected](https://github.com/desktop/desktop/issues/14936)  
   - [특정 구역에서의 랜덤 스폰 알고리즘](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=89582&exception_mode=recommend&page=1)
   - [게임 시스템 디자인 시작하기](https://www.slideshare.net/ByungChun2/ss-140743429)  
   - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)  
@@ -192,13 +83,7 @@ categories: ⛏️Memo
   - [Bool 변수 이름 제대로 짓기 위한 최소한의 영어 문법](https://soojin.ro/blog/naming-boolean-variables)  
   - [C# 메모리 관리](https://blog.naver.com/njuhb/140165599614)  
   - [C# 프로퍼티는 Ref 로 못전달한다, 프로퍼티 구조](https://dh-0501.tistory.com/138)  
-  - [C 가변 길이 배열](https://jungpaeng.tistory.com/89)  
-  - [C 가변 길이 배열](http://m.todayhumor.co.kr/view.php?table=total&no=9553647)  
-  - [C 가변 길이 배열 - 백준(컴파일러)](https://www.acmicpc.net/board/view/47218)  
-  - [C 가별 길이 배열 - 컴파일러](https://seolin.tistory.com/67)  
-  - [C 헤더 파일이 없어도 실행이 되는 이유](https://yoostudy.tistory.com/entry/%ED%97%A4%EB%8D%94%ED%8C%8C%EC%9D%BC-%EC%97%86%EC%96%B4%EB%8F%84-%EC%8B%A4%ED%96%89-%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)  
-  - [C 동적할당](https://security-nanglam.tistory.com/78?category=800096)  
-  - [C 포인터 크기](https://security-nanglam.tistory.com/66)  
+  - 헤더 파일이 없어도 실행이 되는 이유
   - [포인터, 사용하는 이유](https://oper6210.tistory.com/m/160)  
   - [유니티 Vector3 Equals](https://docs.unity3d.com/ScriptReference/Vector3.Equals.html)  
   - [유니티 Vector3는 스택에 생성된다, 값 형식이다, Struct](https://3dmpengines.tistory.com/1566)  
@@ -206,7 +91,6 @@ categories: ⛏️Memo
   - [C# new Struct](https://asta8080.tistory.com/5)  
   - [유니티 메모리 관리의 이해](https://smilejsu.tistory.com/560)  
   - [float 연산이 정확하지 않다면 컴퓨터 계산기는 어떻게 소수를 계산하는가](https://www.quora.com/If-computers-cannot-compute-floating-numbers-accurately-how-do-calculators-and-scientific-computers-function)  
-c-why-bool-is-8-bits-long)  
   - [누적합](https://book.acmicpc.net/algorithm/prefix-sum)  
   - [GetInstanceID 와 GetHashCode](https://daebalstudio.tistory.com/entry/GetInstanceID-%EC%99%80-GetHashCode-%EC%A0%95%EB%A6%AC%ED%95%A0-%EA%B2%83)  
   - [유니티 프리팹 썸네일 안보임](https://forum.unity.com/threads/why-are-my-prefab-and-model-previews-not-showing.709544/)  
@@ -261,8 +145,6 @@ c-why-bool-is-8-bits-long)
   - [C# OCR](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rhukjin&logNo=222052759608)  
   - [패킷](https://enlqn1010.tistory.com/9)  
   - [메이플 패치파일](https://www.inven.co.kr/board/maple/2304/9801)  
-  - [C# Linq Take, Skip](https://afsdzvcx123.tistory.com/entry/C-%EB%AC%B8%EB%B2%95-C-Linq-Take-Skip-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%95%84%EC%9A%94%ED%95%9C-%EA%B5%AC%EC%97%AD-%EC%9E%98%EB%9D%BC%EB%82%B4%EA%B8%B0) 
-  - [Coding 시 변수 선언 위치는 어떻게 잡아주고 계시나요?](http://1st.gamecodi.com/board/zboard.php?id=GAMECODI_Talkdev&no=1461)  
   - [정적 멤버 직접 사용 (클래스명 생략)](https://www.csharpstudy.com/CS6/CSharp-using-static-member.aspx)  
   - [Change line renderer alpha unity](https://stackoverflow.com/questions/63178546/change-line-renderer-alpha-unity)  
   - [게임잡](https://www.gamejob.co.kr/Recruit/joblist?menucode=duty&duty=1)  
@@ -279,10 +161,6 @@ c-why-bool-is-8-bits-long)
   - [2D도트게임의 비밀](https://www.dogdrip.net/195354145)  
   - [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)  
   - [메이플스토리 블로그](https://blog.maplestory.nexon.com/)  
-  - [jekyll Liquid](https://fuzzysound.github.io/jekyll-liquid)  
-  - [The Unity Shaders Bible](https://learn.jettelly.com/unity-shader-bible/#buy-now)  
-  - [JekyllRB Doc](https://jekyllrb.com/docs/front-matter/)  
-  - [Jekyll 좌측 네비바 카테고리 만들기](https://ansohxxn.github.io/blog/category/)  
   - [Bensound](https://www.bensound.com/royalty-free-music/track/memories)  
   - [Kitbash3D](https://kitbash3d.com/)  
   - [Mixamo](https://www.mixamo.com/#/)  
@@ -345,31 +223,14 @@ c-why-bool-is-8-bits-long)
   - [바이트 비트 Beat](https://games.greggman.com/game/html5-bytebeat/)  
   - [머테리얼 비교](https://answers.unity.com/questions/175695/comparing-materials.html)  
   - [머테리얼 인스턴싱](https://wergia.tistory.com/328)  
-  - 디더링  
-  - 유니티 스크린 이펙트 쉐이더  
   - 베이커리 베이크 시 흰색 검은색 빨간색 초록색 파란색 얼룩
   - Auto-Atlasing . Texels per unit 40 ~ 80
   - 글로벌 일루미네이션 . samples
   - 보통 UV 오버랩 문제 > Texels per unit 값 올려주거나, UV 맵 자체 간격  
-  - 스텔실 쉐이더
   - Force Power-Of-Two Atlas 체크 > 검은 공간 많은 텍스쳐를 크기 줄여줌  
-  - HLSL (High Level Shading Language) 가장 유명하고 보편적으로 넓게 쓰임
-  - GLSL (OpenGL Shading Language) OpenGL에서 사용하는 언어
-  - CG (C for Graphics) 엔비디아가 마이크로소프트와 협력하여 만든 언어
-  - 프로그래밍 언어처럼 하나만 잘 배워두면 나머지는 쉽게 터득할 수 있다
-  - 유니티는 CG 언어를 사용, URP 부터는 HLSL 사용 (언리얼도 HLSL)
-  - 유니티는 추가적으로 언어를 제작 지원
-  - Shader Lab 호환성은 가장 높지만, 그만큼 할 수 있는 게 제한적
-  - Surface Shader 가장 쉽고 멀티 플랫폼에서 잘 대응되는 셰이더, 프로그래머가 아니더라도 배우기 쉬운 개념, 아티스트 레벨에서 배우는
-  - -> Shader Lab 이라는 스크립트 안에 CG 코드가 들어가 있는 형식, 이걸 배워두면 Vertax & Fragment Shader 도 이해할 수 있고, 랜더 몽키로도 갈 수 있고, 노드로도 갈 수 있다
-  - Vertax & Fragment Shader, Surface Shader의 상위 버전, CG를 더 디테일하게 다룸, Surface Shader가 오토 모드라면. Vertax & Fragment Shader는 수동이라는 느낌
-  - [CatLikeCoding](https://catlikecoding.com/)  
-  - [Graph 그리기, Position에 따른 Color](https://catlikecoding.com/unity/tutorials/basics/building-a-graph/)  
   - [수학적 Coordinate, Color](https://catlikecoding.com/unity/tutorials/basics/mathematical-surfaces/)  
   - : Mesh Colluder 끼리 충돌 안함, Convex 쓰면 댐  
-  - [Surface Shader (눈)](https://blog.naver.com/PostView.naver?blogId=plasticbag0&logNo=221439156276&parentCategoryNo=&categoryNo=45&viewDate=&isShowPopularPosts=false&from=postView)  
   - [Scene에서 빛 모두 없애기](https://learnandcreate.tistory.com/m/115)
-  - sssShader  
   - [오라](https://blog.naver.com/cra2yboy/222219692268)
   - proko
   - 영어에서 부정관사(a)를 쓸지 정관사(the)를 쓸지 아직도 헷갈린다는 컴공친구에게 부정관사는 클래스를 말할 때 쓰고 정관사는 인스턴스를 말할 때 쓰면 된다고 했더니 크게 이해했다
@@ -377,17 +238,12 @@ c-why-bool-is-8-bits-long)
   - 고동 눈
   - [십수년전.. 게임사가 배포한 정식 게임 클라이언트  없이 MMO서버에 붙는 봇(OOG:OutOfGame bot)들 잡을 때 썼던 방식](https://twitter.com/deimos18770812/status/1507938863754334211?s=20&t=UCr8P5wJDoKdC6hj7_SyBQ)
   - [블렌더 에드온](https://twitter.com/h_ram01/status/1545646179488124928?s=20&t=T5ZiW47P8k2CtzxR9_ec_g)
-  - 다~ 부숴라 다~ 부숴
   - 설단현상  
   - [0 Padding](https://stackoverflow.com/questions/3122677/add-zero-padding-to-a-string)
   - string.PadLeft string.PadRight(4, '0') int.ToString("D4")
   - [Materialize](https://boundingboxsoftware.com/materialize/)
-  - [Shadertoy](https://www.shadertoy.com/)
   - [Game Jam Theme Generator](https://letsmakeagame.net/game-jam-theme-generator/)
   - [Level Design](https://www.worldofleveldesign.com/categories/cat-level-design.php)
-  - [가짜 투명도, 디더링](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=117790&page=1)
-  - [쉐이더와 머테리얼](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=117952&exception_mode=recommend&page=1)
-  - [알베도, 이미션, 디퓨즈](https://m.blog.naver.com/sorang226/222940558803)
   - [유니티 메모리 관리](https://www.inven.co.kr/webzine/news/?news=278863&vtype=pc)
   - MAUI
   - [애니메이션의 타이밍](https://spine304.tistory.com/65)  
@@ -424,9 +280,6 @@ c-why-bool-is-8-bits-long)
   - il2cpp  
   - Wuppo 꺼꿀이  
   - 퀘스트 유니온 - 마을바다 있는 잡 퀘 클리어 수에 따라 스탯 증가?  
-  - auto  
-  - static  
-  - register  
   - 비행기 롤코
   - 비행기 전파
   - 유심?
@@ -454,7 +307,6 @@ c-why-bool-is-8-bits-long)
   - 부전나비
   - 예전엔 코드 중간에 변수 선언을 하지 않았음 ex C, 프로그램에 메모리 할당을 해줘야하는데 부족할 수 있어서??
   - 지금 되는 건 CPP 컴파일러로 일기 대문에?
-  - 스테이지 바뀔 때 일러스트 2~3 장 -> 룬스톤
   - 모터호텔
   - 함께라면
   - 골든타임 모래시계
@@ -473,7 +325,6 @@ c-why-bool-is-8-bits-long)
   - <https://twitter.com/dripping_bik/status/1173613357024382977?ref_src=twsrc%5Etfw>
   - <https://twitter.com/METALBUTTER/status/1175020978960658432?ref_src=twsrc%5Etfw>
   - <https://ko.m.wikipedia.org/wiki/%ED%94%8C%EB%A0%88%EC%9D%B4_%EB%B0%94%EC%9D%B4_%EB%A9%94%EC%9D%BC_%EA%B2%8C%EC%9E%84>
-  - 퀘스트의 핵심은 플레이어들이 금방 깰 수 있도록 길이가 적당하면서 보상도 받을 수 있는 임무를 제공하는 것입니다. '딱 하나만 더 해볼까'라는 느낌을 주고 싶었지요. - wow {위대한 게임의 탄생}
   - <https://twitter.com/JasperRLZ/status/1182510103943094272?ref_src=twsrc%5Etfw>
   - <https://twitter.com/Icafe14/status/1198543546002726913?ref_src=twsrc%5Etfw>
   - <https://twitter.com/YsbrydGames/status/1221858116465315840?ref_src=twsrc%5Etfw>
@@ -487,16 +338,12 @@ c-why-bool-is-8-bits-long)
   - An anomalous cancellation is a kind of arithmetic procedural error that gives a numerically correct answer:
   - 라이팅 릭 (Leck) 현상 - 모델링
   - <https://twitter.com/InertialObservr/status/1286500403534639105?ref_src=twsrc%5Etfw>
-  - 망토가 프랑스어(manteau) 고무(gomme)피망(piment)
   - <https://www.youtube.com/watch?v=H0d6tSqyN1Y>
   - <https://rauno.me/craft/fractional-slider>
   - 만년필 시필코너엔 '永'(영)자가 예시로 자주 나온다. 획을 긋는 8가지 방법이 이 안에 두루 담겨있기 때문이다. 로마자 폰트 개발자들은 'The quick brown fox jumps over the lazy dog.'으로 작업을 점검한다. 알파벳 26자가 다 들어있다. 한글 폰트 작업엔 '다람쥐 헌 쳇바퀴에 타고파'가 사용된다.
-  - c++ 개발자에게 있어 포인터 delete 후 어떤 코드가 없더라도 = nullptr 대입하는게 국룰 이듯이....
-  - <https://twitter.com/sight_archive/status/1530087872878895104?ref_src=twsrc%5Etfw>
-  - 엄청 좋아하는 친구랑 같이 가게 구경하던 중, 스푼을 살까 고민돼서 「검색해보니 아마존에서도 비슷한 가격이고 다음에 살까..」 라고 말했더니「인터넷에서 산다면 보통의 스푼이지만 지금 사면 나랑 산 스푼이 되는거야」라고 해서 충격이었고, 결국 사버려서 사용할때마다 그 아이를 떠올린다...
-  - 아들이 어릴적 소중히하던 인형을 여행지에서 잃어버려서 「그러니까 들고다니지 말랬지?」라고 화냈더니 「슬프니까 화내지말아줘」라고 말해 깜짝놀랐다.요전, 내가 겉옷을 잃어버렸을 때 「괜찮아? 슬프지 않아?」라고 말해줬던 아들.화내는건 자신을 위해서지, 상대를 위해서가 아님을 깨달았다.
+  - [미술작품 직접가서 봐야하는 이유](https://twitter.com/sight_archive/status/1530087872878895104?ref_src=twsrc%5Etfw)
   - Best Practice
-  - 염세주의
+  - 낙관주의 ㅡ 염세주의
   - 파일이름제한
   - encounter
   - cellular automata
@@ -504,9 +351,6 @@ c-why-bool-is-8-bits-long)
   - Hilbert ← Linear (raster)
   - 암달의 법칙
   - Amortized 복잡도
-  - <https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045#:~:text=Amortized%20time%20is%20the%20way>,array%20and%20can%20be%20extended
+  - <https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045#:~:text=Amortized%20time%20is%20the%20way,array%20and%20can%20be%20extended>
   - Random Access
-  - https://twitter.com/beetie135/status/1614203893004763136?ref_src=twsrc%5Etfw
-  - https://twitter.com/CK20_HWI/status/1594017839924776960?s=20&t=27ijxpKZeG9rbUT-zRW0hA
-  - [http://yuchi.duckdns.org/xe/home](http://yuchi.duckdns.org/xe/home)
   - Unity curve.Evaluate
