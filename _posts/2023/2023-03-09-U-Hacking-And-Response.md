@@ -249,6 +249,9 @@ r비트 암호문 C2
 - CTR (CounTeR)  
   - 1씩 증가해가는 카운터를 암호화해서 키스트림을 만들어 내는 스트림 암호이다.  
 
+- CFB만 알고 가자
+- OFB, CFB 차이는 Output, Cipher
+
 ---
 
 크리덴셜 (자격증명)  
@@ -300,4 +303,8 @@ TODO : 과제
 - VPN
 - TOR The Onion Touter
 - Zero Trust - SDP
+
+- Block Cipher
+
+- SET, SET 이중 서명  
 
