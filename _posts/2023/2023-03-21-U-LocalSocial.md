@@ -1,6 +1,7 @@
 ---
 title: "⛏️ 지역산업과 취창업 환경 이해 과목"
 date: 2023-03-21. 10:03
+last_modified_at: 2023-04-04. 10:11
 categories: ⛏️Memo
 ---
 
@@ -58,3 +59,5 @@ categories: ⛏️Memo
     - 원격 진료
 
 ---
+
+- KPI 성과지표

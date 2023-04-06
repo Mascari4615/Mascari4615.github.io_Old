@@ -1,7 +1,7 @@
 ---
 title: "⛏️ 정규표현식"
 date: 2023-03-20. 14:21
-last_modified_at: 2023-03-20. 14:21
+last_modified_at: 2023-04-03. 14:23
 categories: ⛏️Memo
 ---
 
@@ -20,7 +20,7 @@ categories: ⛏️Memo
 
 평소 글을 쓸 때 VSCode를 이용하는데,  
 검색 기능에 정규표현식을 사용할 수 있다는 것을 알게 되었고,  
-이를 이용해 모든 경우의 수에 대해 검색하여 지울 수 있었다.  
+이를 이용해 내가 찾고자 하는 모든 경우의 수에 대해 검색할 수 있었다.  
 
 [참고 0](https://hamait.tistory.com/342)  
 [참고 1](https://regexr.com/)  

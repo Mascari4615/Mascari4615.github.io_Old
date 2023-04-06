@@ -1,7 +1,7 @@
 ---
 title: "⛏️ 해킹과 대응 기술 과목"
 date: 2023-03-09. 15:01
-last_modified_at: 2023-03-21. 15:06
+last_modified_at: 2023-04-04. 14:54
 categories: ⛏️Memo
 ---
 
@@ -308,3 +308,125 @@ TODO : 과제
 
 - SET, SET 이중 서명  
 
+- Internet Banking 의 작동원리
+- BLock Cipher mode of operation - CBC
+- 구매자, 판매자, 대행사 (사과를 온라인 쇼핑몰에서 구매하고자 할 때)
+- 공개키 암호화(공개키,개인키)에서 핵심
+- IPSec VPN의 Tunnel 생성 과정 - IKE에서 대칭키를 교환하는 과정
+- MITM, Replay Attack, ARP Spoofing , TCP Session Hijacking
+- 해킹 공격 및 실습
+
+- 양방향 (기밀성)
+  - 대칭키 (데이터 암호화)
+    - Steam 방식 (True Rabdin) = OTP, (Phudo Random 의사 무작위 추출= RCA)
+    - Block 방식 = 페이스탈 DES SEED, SPN ARS ARIA?
+  - 비대칭키(부인방지, 서명, 메시지인증,대칭키교환, PKi Public Key )암호화 및 전자서명
+    - 인수분해 RSA PCP Radian?
+    - 이산대수 D.H?
+    - 타원곡선 ECC?
+
+- 일방향 (무결성)
+- Hash 압축성 계산용이성 일방향성 충돌회피성
+  - MAC 키 써서
+  - MDC 키 적용안하는 일방향성
+
+- 디페 헬만 키 교환 알고리즘
+
+[SSL/TLS](http://wiki.gurubee.net/display/SWDEV/SSL+%28TLS%29)  
+
+- 암호화 통신을 하기 위한 대칭키 전달을 기반으로 통신 과정을 설명하라
+  - 인증서는 누구나 만들 수 있지만 브라우저는 공인 인증기관 목록에 포함된 기관에서 발급한 인증서만을 신뢰한다
+  - 1Trusted root CA(Certificate Authority) store, 2Browser에 사전 설치되어 제공된다. 3Browser에서 지정한 보안 및 인증 표준을 준수하고 감사를 받는다.  
+
+- SSL/TLS
+  - Site, 인증기관에 Site의 공개키(암호화용) 전송 (인증 요청)
+  - 인증기관, Site의 공개키를 인증기관의 개인키(암호화용)로 암호화하여 사이트 인증서 제작  
+  - 인증기관, 인증서를 Site에 전송, Browser에 인증기관의 공개키(복호화용) 내장
+  - User, Site에 접속 요청
+  - Site, Site의 인증서 전달
+  - User, Browser에 내장된 인증기관의 공개키로 Site의 인증서 복호화
+  - User, Site의 공개키(암호화용) 획득  
+  - User, Site의 공개키로 User의 대칭키 암호화 후 전송
+  - SIte, Site의 대칭키로 User의 대칭키를 복호화
+
+[개인키 공개키, 대칭키 비대칭키](https://spidyweb.tistory.com/310)  
+
+- 공개키 암호화 (공개키,개인키)에서 핵심은?
+  - 송신자의 공개키로 암호화(잠금)하는 행위는 기밀성을 확보한다
+  - 송신자의 개인키로 암호화(잠금)하는 행위는 시그니처(전자서명), 인증, 부인방지, 무결성을 확보한다
+  - 공개키 암호화와 전자서명의 차이
+    - 공개키 암호화에서 수신자의 공개키는 평문을 암호화하는것이고, 수신자의 개인키는 암호문을 복호화한다
+  - 전자서명에서 송신자의 개인키는 평문을 사용하여 서명하기위한 것이고, 송신자의 공개키는 수신자가 서명이 올바른지 검증한다
+
+- SSL/TLS, IPSec-VPN
+
+- IPSec Internet Protocol Security
+  - Host와 host 사이, 보안 Gateway 사이 (Network <-> Network),보안 Gateway와 host 하이 (Network <-> Host)에 보안 Tunneling 을 형성하여 데이터 흐름을 보호한다
+
+- VPN Virtual Private Network
+  - 개인들이 공동으로 네트워크를 이용하면서 이느와 암호화 Tunneling 기술을 이용한 가상적인 시설 보안 네트워크로서 저비용, 보안성, 익명성이 제공된다
+  - Gateway 위치에 설치되므로 방화벽과 같은 위치에 설치된다 -> Trends 통합장비 (VPN+방화벽)
+  - Anywhere Anytime AnyDevice -> SSL, VPN, IPSec
+
+- S-HTTP (Secure-HTTP), SSL/TLS, IPSec
+  - Interface는 System Module 간 통신 및 정보 교환을 위한 통로로 사용되므로 보안 기능을 갖춰야 한다
+  - Interface는 Network, Application, DB 영역에 각각 적용한다
+  - Network에서 송신 및 수신 간 Sniffing 등을이용한 데이터 탈취 및 변조 위협에 대응하기 위해 Traffic에 대한 암호화를 설정한다. 암호화는 Interface Architecture 에 따라 S-HTTP, SSL/TLS, IPSec 등이 적용된다
+- S-HTTP
+  - 특성
+    - Web 상에서 네트워크 트래픽을 암호화하는 방법으로 Clinet와 서버간에 전송하는 모든 메시지를 암호화하여 전송하는 보안 프로토ㅗㄹ
+    - HTTP 세션으로 주고 받는 자료에 대한 암호화, 전자서명, 보안기능을 제공
+  - QSI Layer
+    - Application
+  - 범위
+    - Web에 한해서만 보호된다
+    - 트랜젝션(기밀성), 메시지(무결성), 발신자 언증, 부인 방지, 접근 통제
+  - 인증 방식
+    - 클라와 서버 각각 인증서가 필요하다 (상호인증)
+  - 인증서
+    - 클라 인증서를 보낼 수 있다
+  - 접근성 (응용)
+    - -
+  - 암호화 단위
+    - 메시지 단위 (메시지 기반 프로토콜)
+  - URL
+    - shttps://
+- SSL/TLS
+  - 특성
+    - 전송계층과응용계층 사이에서 클라와 서버간의 암호화, 상호인증, 무결성을 보장하는 보안 프로토콜
+    - ㅡㄹ라와 서버강의 상호인증, 암호방식에 대한 협상을 한다
+    - 핸드쉐이크로 인증하고, 인증 확인을 하므로(날)사칭하는 것을 방지한다
+    - 정보 유출과 악성코드 유입경로로 역이용될 수 있따
+  - asd
+    - Transport
+  - asd
+    - Telnet, FTP 등의 Application Protocol
+    - Online Shopping
+    - WebBrowser에서 SSL VPN을 연결한다
+  - asd
+    - 클라의 인증이 선택적
+    - One or Two way 인증 - 인증서 이용
+  - ㅁㄴㅇ
+    - 서버만이 인증할 수 있다
+  - ㅁㄴㅇ
+    - 분산 환경 접속, 원격 근무자 (웹 이용)
+  - ㅁㄴㅇ
+    - 서비스 단위, 브라우저에 의존한다
+  - https://
+- IPSec
+  - ㅁㄴㅇ
+    - 네트워크 계층에서 무결성과 인증을 보장하는 인증헤더 AH와 기밀성까지 보장하는 암호화ESP을 이용한 층단간 보안서비스를 제공하는 네트워크 프로토콜
+    - IP 패킷 단위의 데이터 변조 방지, 은닉 기능을 제공
+    - Router 간 안전한 정보를 교환
+    - 두 장비간 논리전 커넥션 구성 -> H/w S/W 필요
+  - ㅁㄴㅇ
+    - Network
+  - asd
+    - IP에 보안기능을 추가
+    - ~? ㅂㅎ안
+    - VPN을 이용한 보안 채널 구성
+  - ~
+  - ~
+  - ~
+
+~~
