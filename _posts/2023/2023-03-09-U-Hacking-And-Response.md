@@ -280,13 +280,7 @@ I.E. 키 합의 프로토콜
 
 ---
 
-TODO : 영상 강의  
-TODO : 책  
-TODO : 과제  
-
 - DES Data Encryption Standard
-
-16-1. CBC  
 
 - Biba 모델  
 - BLP 모델  
