@@ -1,7 +1,7 @@
 ---
 title: "⛏️ 내가 만드는 백과사전/정보모음"
 date: 2022-11-20. 11:56
-last_modified_at: 2023-03-27. 14:10
+last_modified_at: 2023-04-20. 13:30
 categories: ⛏️Memo
 ---
 
@@ -142,7 +142,6 @@ categories: ⛏️Memo
   - [C# OCR](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=rhukjin&logNo=222052759608)  
   - [패킷](https://enlqn1010.tistory.com/9)  
   - [메이플 패치파일](https://www.inven.co.kr/board/maple/2304/9801)  
-  - [정적 멤버 직접 사용 (클래스명 생략)](https://www.csharpstudy.com/CS6/CSharp-using-static-member.aspx)  
   - [Change line renderer alpha unity](https://stackoverflow.com/questions/63178546/change-line-renderer-alpha-unity)  
   - [게임잡](https://www.gamejob.co.kr/Recruit/joblist?menucode=duty&duty=1)  
   - [유니티 최적화](https://helenstudy.tistory.com/51)  
@@ -198,29 +197,16 @@ categories: ⛏️Memo
   - MAUI
   - [애니메이션의 타이밍](https://spine304.tistory.com/65)  
   - [플레이팹 마스터](https://playfab-master.com/)  
-  - [https://utteranc.es/](https://utteranc.es/)  
-  - [https://app.travis-ci.com/account/repositories](https://app.travis-ci.com/account/repositories)
-  - [https://velog.io/@woo0_hooo/%EC%BB%B4%EA%B3%B5-%EC%B7%A8%EC%A4%80%EC%83%9D%EC%97%90%EA%B2%8C-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%A7%81%ED%81%AC%EB%93%A4-%EC%A0%95%EB%A6%AC](https://velog.io/@woo0_hooo/%EC%BB%B4%EA%B3%B5-%EC%B7%A8%EC%A4%80%EC%83%9D%EC%97%90%EA%B2%8C-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%A7%81%ED%81%AC%EB%93%A4-%EC%A0%95%EB%A6%AC)
+  - [컴공 링크들](https://velog.io/@woo0_hooo/%EC%BB%B4%EA%B3%B5-%EC%B7%A8%EC%A4%80%EC%83%9D%EC%97%90%EA%B2%8C-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EB%A7%81%ED%81%AC%EB%93%A4-%EC%A0%95%EB%A6%AC)
   - [유니티최적화기법](https://nogan.tistory.com/m/7)
   - [브라우저 확장](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension?tabs=v3)
-  - [https://learn.microsoft.com/ko-kr/training/modules/interact-with-data-blazor-web-apps/4-access-data-from-blazor-components](https://learn.microsoft.com/ko-kr/training/modules/interact-with-data-blazor-web-apps/4-access-data-from-blazor-components)
-  - [https://learn.microsoft.com/ko-kr/training/modules/persist-data-ef-core/3-migrations](https://learn.microsoft.com/ko-kr/training/modules/persist-data-ef-core/3-migrations)
-  - [https://yaraba.tistory.com/502](https://yaraba.tistory.com/502)
-  - [https://learn.microsoft.com/ko-kr/ef/core/cli/powershell](https://learn.microsoft.com/ko-kr/ef/core/cli/powershell)
-  - [https://stackoverflow.com/questions/64294006/ef-core-the-entity-type-user-requires-a-primary-key-to-be-defined](https://stackoverflow.com/questions/64294006/ef-core-the-entity-type-user-requires-a-primary-key-to-be-defined)
-  - [https://blazorhelpwebsite.com/ViewBlogPost/34](https://blazorhelpwebsite.com/ViewBlogPost/34)
-  - [https://learn.microsoft.com/ko-kr/sql/relational-databases/databases/delete-a-database?view=sql-server-ver16](https://learn.microsoft.com/ko-kr/sql/relational-databases/databases/delete-a-database?view=sql-server-ver16)
-  - [https://www.sqlservertutorial.net/](https://www.sqlservertutorial.net/)
   - [자연어](https://gall.dcinside.com/mgallery/board/view/?id=github&no=42311&exception_mode=recommend&page=1)
   - [버프](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=113236&page=1)
-  - [https://stackoverflow.com/questions/53059487/unity3d-parent-has-a-type-of-layout-group-error](https://stackoverflow.com/questions/53059487/unity3d-parent-has-a-type-of-layout-group-error)
-  - [https://screenmusings.org/](https://screenmusings.org/)
-  - [https://help.twitch.tv/s/article/adding-a-game-and-box-art-to-the-directory?language=ko](https://help.twitch.tv/s/article/adding-a-game-and-box-art-to-the-directory?language=ko)
-  - [https://mentum.tistory.com/227](https://mentum.tistory.com/227)
-  - [https://nielsdewitte.be/index.php?page=Pages/VFExtra.php](https://nielsdewitte.be/index.php?page=Pages/VFExtra.php)
-  - [https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756)
-  - [https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/edit](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/edit)
-  - [https://m.blog.naver.com/sorang226/222772936261](https://m.blog.naver.com/sorang226/222772936261)
+  - [영화 스냅샷, 컬러](https://screenmusings.org/)
+  - Quaternion.LookRotation
+  - [VFX 리소스](https://nielsdewitte.be/index.php?page=Pages/VFExtra.php)
+  - [PolyglotGameDev - 게임/게임개발 관련 용어 다국어 번역 시트](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756)
+  - [레벨 디자인](https://docs.google.com/document/d/1fAlf2MwEFTwePwzbP3try1H0aYa9kpVBHPBkyIq-caY/edit)
   - 캐스퍼
   - 호문클루스
   - 멜랑꼴리  
