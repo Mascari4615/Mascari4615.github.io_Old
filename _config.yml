@@ -4,9 +4,9 @@ theme_mode: dark
 lang: ko-KR
 timezone: Asia/Seoul
 
-title: 카모뜨린의 아지트
-tagline: 포기하면 거기서 깁업이에요
-description: TIL, MEMO 그리고 LOG를 적는 곳
+title: 카모뜨린 아지트
+tagline: 포기하면 거기서 깁업
+description: 기록을 빙자한 일방적 독백
 avatar: /assets/img/ProfileImage.png
 logo: /assets/img/ProfileImage.png
 url: 'https://Mascari4615.github.io'
@@ -14,12 +14,6 @@ baseurl:
 
 github:
   username: Mascari4615
-twitter:
-  username: Mascari4615
-social:
-  name: 카모뜨린
-  email: mascari4615@gmail.com
-  links:
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
