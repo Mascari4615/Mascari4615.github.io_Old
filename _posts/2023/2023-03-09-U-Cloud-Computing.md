@@ -1,7 +1,7 @@
 ---
 title: "⛏️ 클라우드 컴퓨팅 과목"
 date: 2023-03-09. 14:55
-last_modified_at: 2023-04-03. 13:35
+last_modified_at: 2023-05-04. 10:55
 categories: ⛏️Memo
 ---
 
@@ -9,9 +9,9 @@ On-Premise VS 클라우드
 자체 시스템  
 
 이용모델  
-배치 IAAS SAAS pAAs XAAS  
+배치 IaaS SaaS PaaS XaS  
 
-컴퓨팅의 발전  
+컴퓨팅의 진화  
 클라우드 컴퓨팅은 제품에서 서비스로의 전환  
 
 Innovation  
