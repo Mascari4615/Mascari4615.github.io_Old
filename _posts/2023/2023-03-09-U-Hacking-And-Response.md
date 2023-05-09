@@ -448,3 +448,40 @@ I.E. 키 합의 프로토콜
 - IPSec
   - Transport Mode 에서 ESP 는 IP Payload 를 암호화하지만 IP Header는 암호화하지 않는다
   - IP HEADer 까지 암호화? = Tunnel Mode
+
+@0509
+
+핵티비즘?  
+종교/신념에 따라 공격  
+
+- TCP 신뢰성 3가지  
+  - 패킷 순서가 정확한지?
+  - 중간에 손실된 패킷이 없는지?
+  - 손실된 패킷의 재전송 요구가 있는지?
+
+SYN Flooding, TearDrop  
+
+POP3(110) VS IMAP4(143) ?  
+
+- DNS 취약성
+  - UDP(53) 기반으로 불안정한 Protocol, Why?
+  - Query 시 인증을 수행하지 않는다
+  - 공격자가 local에 존재하므로 실제 DNS 서버보다 빠르게 응답할 수 있다
+  - Client는 DNS Query를 수행한 후 먼저 응답한 IP 수용
+
+DNS Spoofing, Pharming  
+
+클라이언트 밑에 숨는,  
+클라이언트가 이용하는 DNS 서버에 들어가는  
+
+독약을 넣느다 = Poisioning
+
+- 방화벽의 한계점, 방화벽 3단계
+  - 내부공격에 대해 어떤 보호도 제공할 수 없다
+  - 네트워크상에 백도어를 통해서 들어오는 무분별하거나 권한 없는 엑세스에 대해 보호할 수 없다
+  - 바이러스와 악긔적인 코드에 대해서 완벽한 보호를 할 수 업다
+  - 어떤 방화벽도 *
+  - ㅡ
+
+Genmask  
+Netmask  
