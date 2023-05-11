@@ -26,7 +26,6 @@ google_analytics:
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url will be added to all image (site avatar & posts' images) paths starting with '/'
 # e.g. 'https://cdn.com'
-# e.g. 'https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images@0a003683c0c3ca549d12c309f9b3e03ea20981e5'
 img_cdn: 'https://cdn.jsdelivr.net/gh/Mascari4615/Mascari4615.github.io@main'
 
 toc: true
