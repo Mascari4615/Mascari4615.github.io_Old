@@ -8,7 +8,7 @@ categories: 🗿Stone 🌱DayStone ⛏️Programming 🕯️Programming-Memo
 
 VS 는  
 Ctrl + K 입력 후 Ctrl + F (선택 영역 정렬)  
-Ctrl + K 입력 후 Ctrl + D (문서 전체 정렬)
+Ctrl + K 입력 후 Ctrl + D (문서 전체 정렬)  
 
 Rider는 Ctrl + Alt + L  
 VS Code는 Shift + Alt + F  
