@@ -30,7 +30,7 @@ img_cdn: 'https://cdn.jsdelivr.net/gh/Mascari4615/Mascari4615.github.io@main'
 
 toc: true
 
-paginate: 12
+paginate: 9
 
 kramdown:
   syntax_highlighter: rouge
