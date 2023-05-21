@@ -66,3 +66,8 @@ categories: ⛏️Memo
 - [SimpleIcons](https://simpleicons.org/)  
 - [IcoonMono - 아이콘](https://icooon-mono.com/)  
 - [모션테이블](http://foxcodex.html.xdomain.jp/)  
+- [일본어 폰트](https://webayan39.com/fontroom/)
+- [게임 인터페이스 스크린샷](https://interfaceingame.com/)
+- [게임 UIUX 자료 모음](https://boom-seeder-9ee.notion.site/UIUX-dcfa267e96aa4679b0c0622a99d3ceaa)
+- [텍스트 생성기](https://perchance.org/useful-generators)
+- [영화 스냅샷, 컬러](https://screenmusings.org/)

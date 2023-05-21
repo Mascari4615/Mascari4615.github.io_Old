@@ -1,7 +1,7 @@
 ---
-title: "⛏️ 내가 만드는 백과사전/정보모음"
+title: "⛏️ 메모"
 date: 2022-11-20. 11:56
-last_modified_at: 2023-04-20. 13:30
+last_modified_at: 2023-05-21. 15:19
 categories: ⛏️Memo
 ---
 
@@ -202,7 +202,6 @@ categories: ⛏️Memo
   - [브라우저 확장](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension?tabs=v3)
   - [자연어](https://gall.dcinside.com/mgallery/board/view/?id=github&no=42311&exception_mode=recommend&page=1)
   - [버프](https://gall.dcinside.com/mgallery/board/view/?id=game_dev&no=113236&page=1)
-  - [영화 스냅샷, 컬러](https://screenmusings.org/)
   - Quaternion.LookRotation
   - [VFX 리소스](https://nielsdewitte.be/index.php?page=Pages/VFExtra.php)
   - [PolyglotGameDev - 게임/게임개발 관련 용어 다국어 번역 시트](https://docs.google.com/spreadsheets/d/17f0dQawb-s_Fd7DHgmVvJoEGDMH_yoSd8EYigrb0zmM/edit#gid=296134756)
@@ -289,4 +288,11 @@ categories: ⛏️Memo
   - Amortized 복잡도
   - <https://medium.com/@satorusasozaki/amortized-time-in-the-time-complexity-of-an-algorithm-6dd9a5d38045#:~:text=Amortized%20time%20is%20the%20way,array%20and%20can%20be%20extended>
   - Random Access
-  - Unity curve.Evaluate
+  - Unity AnimationCurve curve.Evaluate
+  - three d pose tracker
+  - [TMP 다국어 폰트 교체](https://opchacha.tistory.com/m/11)
+  - Null safety
+  - InverseTransformDirection, InverseTransformPoint
+  - [C# 단항 후위 ! 연산자](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-forgiving)
+  - [hping3](https://simpleisit.tistory.com/28)
+  - [유용한 게임 기능 코드 모음](https://austinhenley.com/blog/usefulfunctions.html)
